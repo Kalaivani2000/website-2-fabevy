@@ -1,0 +1,165 @@
+.container{
+	   width:1140px;
+	   margin:0 auto;
+	   padding-left:15px;
+	   padding-right:15px;
+}
+.row{
+	display:flex;
+	flex-wrap:nowrap;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+body{
+	margin:0;
+}
+.col-lg-1{
+	  width:8.33%;
+	  padding:0 15px;
+}
+.col-lg-2{
+	  width:16.66%;
+	  padding:0 15px;
+}
+.col-lg-3{
+	  width:25%;
+	  padding:0 15px;
+}
+.col-lg-4{
+	  width:33.33%;
+	  padding:0 15px;
+}
+.col-lg-5{
+	  width:41.66%;
+	  padding:0 15px;
+}.col-lg-6{
+	  width:50%;
+	  padding:0 15px;
+}
+.col-lg-7{
+	  width:58.33%;
+	  padding:0 15px;
+}
+.col-lg-8{
+	  width:66.66%;
+	  padding:0 15px;
+}
+.col-lg-9{
+	  width:75%;
+	  padding:0 15px;
+}
+.col-lg-10{
+	  width:83.33%;
+	  padding:0 15px;
+}
+.col-lg-11{
+	  width:91.66%;
+	  padding:0 15px;
+}.
+.col-lg-12{
+	  width:100%;
+	  padding:0 15px;
+}
+
+
+/*----------flex style----------*/
+.align-items-center{
+	  align-items:center !important;
+}
+.align-items-start{
+	  align-items:flex-start  !important;
+}
+.align-items-end{
+	  align-items:flex-end !important;
+}
+.align-items-baseline{
+	  align-items:baseline !important;
+}
+.align-items-stretch{
+	  align-items:stretch !important;
+}
+
+/*-------------header section-----*/
+.header{
+	 padding:0 15px;
+	 background-color:#131366c9;
+     padding-bottom:16px;
+}
+.logo h2{
+	 font-size:20px;
+	 font-weight:bold;
+	 display:inline-block;
+	 color:#fff;
+	 text-decoration:none;
+	 font-family:"Raleway", sans-serif;
+	 padding-left:45px;
+	 padding-top:10px;
+	
+}
+.logo-text li a{
+	  display:inline-block;
+	  color:#fff;
+	  text-decoration:none;
+	  padding-right:20px;
+	  padding-left:10px;
+	  font-size:15px;
+      font-weight:600;
+	  white-space: nowrap;
+	  text-align:center;
+	  font-family:"Raleway", sans-serif;
+}
+ul li a {
+	color:black;
+}
+.logo-text  a{
+	   padding:10px 0px;
+}
+.logo-text ul li{
+	display:inline-block;
+	list-style:none;
+}
+.nav-buttons{
+	  border:2px solid #3470c6;
+	  border-radius:32px;
+	  padding:0px 8px 0px 8px;
+}
+.button{ 
+	  padding:10px 15px 10px 15px;
+	  text-align:center;
+}
+/*--------header section--------*/
+.banner{
+    background-image:url(../images/hero.jpg);
+    background-position:right;
+    background-repeat:no-repeat;
+    padding:134px 116px;
+    background-color:#131366c9;
+	background-size:40%;
+    justify-content:space-around;
+}
+.banner-content h2{
+	    font-size:30px;
+	    font-family:"Raleway", sans-serif;
+		color:#fff;
+}
+.banner-content p{
+	    font-size:18px;
+	    font-family:"Raleway", sans-serif;
+		color:#b3b3bc;
+		padding-bottom:100px;
+		margin-top:-14px;
+}
+.button-bg{
+	  text-decoration:none;
+	  border:1px solid #fff;
+	  padding:15px 30px;
+	  text-align:center;
+	  border-radius:28px;
+	  background-color:#3470c6;;
+	  font-size:15px;
+	  color:#fff;
+	  display:inline-block;
+}
+.nav-button{
+	  margin-top:-84px;
+}
