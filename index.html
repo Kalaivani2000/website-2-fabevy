@@ -2,6 +2,8 @@
 <html>
     <head>
 	    <title></title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="icon/icofont.min.css">
 	    <link rel="stylesheet" href="css/style.css">
@@ -11,95 +13,116 @@
 	</head>
 	    <body>
 	<!-----------------------header section starts----------->
-	<section class="header">
+	<section class="header pt-3">
 		<div class="container">
-		    <div class="row">
-			    <div class="col-lg-3">
-				    <div class="logo">
-						<a href="index.html">
-						    <h2>ARSHA</h2>
-					    </a>
-			         </div>
-				</div>
-				    <div class="col-lg-9">
-				    <div class="logo-text">
-				        <ul>
-					        <li><a href="#">Home</a></li>
-						    <li><a href="#">About</a></li>
-						    <li><a href="#">Service</a></li>
-						    <li><a href="#">Portfolio</a></li>
-						    <li><a href="#">Team</a></li>
-						    <li class="dropdown">
-							<a href="#"class="dropdown-lit">Drop Down <i class="icofont-curved-down"></i>
-							</a>
-						    </li>
-						    <li><a href="#">Contact</a></li>
-						    <li class="nav-buttons">
-						    <a href="#" class="button">Get Started</a>
-						    </li>
-				        </ul>
-			        </div>
-					</div>
+		    <div class="row align-items-center g-5">
+			<nav class="navbar navbar-expand-lg">
+            <div class="col-lg-3">       
+                <a class="navbar-brand" href="#">ARSHA</a>
 		    </div>
-		 </div>
+			<div class="col-lg-9">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                    <li class="nav-item">
+                         <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                       </ul>
+                       </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+			
+					<button class="button button-primary bg-transparent" type="submit">Get Started</button>
+			</div>		
+               
+            </nav>
+		    </div>
+	    </div>
+		</div>
 	</section>
 		<!-----------------------header section end----------->
 		
 		
 	    <!----------------banner section starts------------------------>
-		<!--<section class="banner">
+		<section class="banner">
 		   <div class="container">
-		       <div class="banner-content">
-			      <h2>Better Solutions For Your<br>Business</h2>
-				     <p>We are team of talented designers making websites with <br>Bootstrap</p>
-			   </div>
-		       <div class="nav-button">
-                   <a href="#" class="button-bg">Get Started</a>
-				   <i class="icofont-play-alt-2"><span>Watch vedio</span></i>
-               </div>
+		        <div class="row">
+				    <div class="col-lg-6 g-5 ">
+		                <div class="banner-content">
+			                <h1>Better Solutions For <br>Your Business</h1>
+				                <h2 class="pb-5">We are team of talented designers making websites with Bootstrap</h2>
+					    </div>
+						<div class="nav-button">
+                            <button class="btn btn-primary" type="submit">Get Started</button>
+				            <i class="icofont-play-alt-2"><span>Watch video</span></i>
+                        </div>
+					</div>
+					<div class="col-lg-6">
+					    <img class="img-fluid" src="images/hero.jpg"> 
+			        </div>
+				</div>
 			</div>			
 		</section>
-        <!----------------banner section end------------------------>        
+        <!----------------banner section end--------------------------->        
 		
 
          <!---------------- client section starts------------------------>  		
-		<!--<section class="client">
+		<section class="client">
 		  <div class="container">
-			  <div class="row align-items-center">
+			  <div class="row  gx-5 p-3">
 			    <div class="col-lg-2">
+				    <div class="client-logo">
+				        <img src="./images/clients/client-1.jpg" class="img-fluid">
+				    </div>
+				</div>
+				
+				<div class="col-lg-2">
 				   <div class="client-logo">
-				          <a href="#"><img src="./images/clients/client-1.jpg"></a>
-						  
+				        <img src="./images/clients/client-2.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
 				<div class="col-lg-2">
 				   <div class="client-logo">
-				         <a href="#"><img src="./images/clients/client-2.jpg"></a>
+				        <img src="./images/clients/client-3.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
 				<div class="col-lg-2">
 				   <div class="client-logo">
-				         <a href="#"><img src="./images/clients/client-3.jpg"></a>
+				        <img src="./images/clients/client-4.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
 				<div class="col-lg-2">
 				   <div class="client-logo">
-				       <a href="#"><img src="./images/clients/client-4.jpg"></a>
+				        <img src="./images/clients/client-5.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
 				<div class="col-lg-2">
 				   <div class="client-logo">
-				       <a href="#"><img src="./images/clients/client-5.jpg"></a>
-				   </div>
-				</div>
-				
-				<div class="col-lg-2">
-				   <div class="client-logo">
-				        <a href="#"><img src="./images/clients/client-6.jpg"></a>
+				        <img src="./images/clients/client-6.jpg" class="img-fluid">
 				   </div>
 				</div>
 		      </div>
@@ -109,12 +132,12 @@
 			
 			
 	    <!----------------------About section starts------------------>
-		<!--<section class="about">
+		<section class="about">
 		    <div class="container">
 			    <div class="about-sec">
 			        <h2>ABOUT US</h2>
 				    <div class="underline"></div>
-					    <div class="row">
+					    <div class="row gx-4 mt-5">
 					        <div class="col-lg-6"> 
 							    <div class="about-info">
                                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
@@ -125,12 +148,10 @@
 							</div>
 							<div class="col-lg-6"> 
 							    <div class="about-info-1">
-								    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+								    <p class="h3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							    </div>   
-                                <div class="nav-but-bg">
-								    <a href="#">Learn More</a>
-							</div>	
+                            <button type="button" class="butn butn-lg btn-primary">Learn More</button>
 						</div>
 			    </div>	
 		    </div>
@@ -139,23 +160,466 @@
 		
 		
 		<!----------------------business section starts------------------>
-		<!--<section class="bus-sec">
+		<section class="bus-sec">
 		    <div class="container">
-			    <div class="col-lg-6">
-				    <div class="row"> 
-						<div class="bus-info">
+			    <div class="row gx-4">
+			        <div class="col-lg-7">
+						<div class="bus-info mt-4 text-dark">
 						    <h2>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></h2>
-							    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Duis aute irure dolor in reprehenderit</p>
-						    <h3><span>01</span> Non consectetur a erat nam at lectus urna duis?<i class="icofont-curved-down"></i></h3>
-						    <h3><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="icofont-curved-down"></i></h3>
-							<h3><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="icofont-curved-down"></i></h3>
+							    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								Duis aute irure dolor in <br>reprehenderit</p>
+						    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item rounded"">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <span-1>01</span-1> Non consectetur a erat nam at lectus urna duis?
+                                        </button>
+                                    </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+                                    </div>
+                                </div>
+                               <div class="accordion-item rounded">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <span-1>02</span-1> Feugiat scelerisque varius morbi enim nunc?
+                                        </button>
+                                    </h2>
+                                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. </div>
+                                        </div>
+                                    </div>
+                                   <div class="accordion-item rounded">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <span-1>03</span-1> Dolor sit amet consectetur adipiscing elit?
+                                            </button>
+                                        </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis. </div>
+                                        </div>
+                                    </div>
+                            </div>
 						</div>
 					</div>
+						<div class="col-lg-5">
+						    <img class="img-fluid-2" src="images/about.jpg">
+						</div>
 				</div>
 			</div>
-		</section>-->
+		</section>
+		<!----------------------business section end------------------>
+		
+		<!----------------------sector section starts------------------>
+		<section class="sect-sec">
+		    <div class="container"> 
+				    <div class="row gx-5 ">
+					    <div class="col-lg-6">
+					        <img class="img-fluid-3" src="images/skills.jpg">
+						</div>
+						<div class="col-lg-6">
+					        <div class="sect-info ">
+						        <h2 class="fw-bolder">Voluptatem dignissimos provident quasi corporis voluptates</h2>
+								    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									    <div class="d-flex justify-content-between">
+											<b>HTML</b><span><b>100%</b></span>
+									    </div>
+									    <div class="progress mb-4">
+                                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+										<div class="d-flex justify-content-between">
+											<b>CSS</b><span><b>90%</b></span>
+									    </div>
+                                        <div class="progress mb-4">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+										<div class="d-flex justify-content-between">
+											<b>JAVASCRIPT</b><span><b>75%</b></span>
+									    </div>
+                                        <div class="progress mb-4">
+                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+										<div class="d-flex justify-content-between">
+											<b>PHOTOSHOP</b><span><b>55%</b></span>
+									    </div>
+                                        <div class="progress mb-4">
+                                            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+						    </div>
+						</div>
+					</div>
+			</div>
+		</section>
+	    <!----------------------sector section end------------------>
+		
+		<!----------------------service section starts------------------>
+		<section class="service">
+		    <div class="container">
+			    <div class="serv-sec">
+			        <h2>SERVICES</h2>
+					<div class="underline"></div>
+					<p class="pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
+					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+			            <div class="row pb-5">
+				            <div class="col-lg-3">
+								    <div class="card shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2">
+										    <i class="icofont-basketball"></i>
+                                            <h5 class="card-title pt-3">Lorem Ipsum</h5>
+                                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        </div>
+									</div>
+						    </div>
+							<div class="col-lg-3">
+								    <div class="card shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2">
+										    <i class="icofont-ui-file"></i>
+                                            <h5 class="card-title pt-3">Sed ut perspici</h5>
+                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                        </div>
+									</div>
+						    </div>
+							<div class="col-lg-3">
+								    <div class="card shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2">
+										    <i class="icofont-speed-meter"></i>
+                                            <h5 class="card-title pt-3">Magni Dolores</h5>
+                                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                        </div>
+									</div>
+						    </div>
+							<div class="col-lg-3">
+								    <div class="card shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2">
+										    <i class="icofont-layers"></i>
+                                            <h5 class="card-title pt-3">Nemo Enim</h5>
+                                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                        </div>
+									</div>
+						    <div>
+			            </div>
+				</div>
+			</div>
+		</section>
+		<!----------------------service section ends------------------>
+		
+		<!----------------------action section starts------------------>
+		<section class="action">
+		    <div class="container">
+			    <div class="row">
+				    <div class="col-lg-9 mb-5 mt-5">
+					    <div class="act-info pt-5">
+					        <h2>Call To Action</h2>
+							    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur <br>sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+                    <div class="col-lg-3">
+                        <div class="act-but">
+						    <button type="button" class="butt bg-transparent">Call To Action</button>
+					    </div>
+					</div>
+                </div>
+			</div>
+		</section>
+		<!----------------------action section end------------------>
+		
+		
+		<!---------------- portfolio section start-------------------------->
+		<section class="portfolio">
+		    <div class="container">
+		        <div class="port-content mt-5">
+				    <h2>PORTFOLIO</h2>
+					    <div class="underline mt-3"></div>
+					       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam 
+						   cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+			    </div>
+				<div class="port-image">
+				    <div class="port-nav mt-4 mb-4">
+					    <a class="active-port href="#">All</a>
+						<a href="#">App</a>
+						<a href="#">Card</a>
+						<a href="#">Web</a>
+					</div>
+			    </div>
+				    <div class="row">
+				        <div class="col-lg-4">
+			                <div class="portfolio-content">
+						        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid">
+				            </div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-6.jpg" class="img-fluid">
+							</div>
+			            </div>
+						<div class="col-lg-4">
+							<div class="portfolio-content">
+						        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid">
+				            </div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-5.jpg" class="img-fluid">
+							</div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-9.jpg" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="portfolio-content">
+						        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid">
+				            </div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-4.jpg" class="img-fluid">
+							</div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-7.jpg" class="img-fluid">
+							</div>
+							<div class="portfolio-content">
+								 <img src="images/portfolio/portfolio-8.jpg" class="img-fluid">
+							</div>
+						</div>
+							
+					
+				</div>
+			</div>	
+		    
+		</section>	
+        <!---------------- portfolio section end-------------------------->
+		
+		<!---------------- Team section starts-------------------------->
+		<section class="team">
+		    <div class="container">
+			    <div class="team-sec mt-5 pt-5">
+			        <h2>TEAM</h2>
+					<div class="underline"></div>
+					<p class="pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
+					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<div class="row">
+				    <div class="col-lg-6">
+					    <div class="card mb-3">
+                            <div class="row g-0">
+				                <div class="col-lg-4 pt-4 ps-4">
+                                    <img src="images/teams/team-1.jpg" class="imgs-fluid">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body-2 mb-3">
+                                        <h2>Walter White</h2>
+                                        <h4>Chief Executive Officer</h4>
+										<div class="under mb-2"></div>
+                                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+										<div class="info-link pt-4">
+											    <a><i class="icofont-twitter"></i></a>
+										        <a><i class="icofont-facebook"></i></a>
+										        <a><i class="icofont-instagram"></i></a>
+										        <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                    </div>
+                                </div>
+                            </div>
+					    </div>
+					</div>
+					<div class="col-lg-6">
+					    <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-lg-4 pt-4 ps-4">
+                                    <img src="images/teams/team-2.jpg" class="imgs-fluid">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body-2 mb-3">
+                                        <h2>Sarah Jhonson</h2>
+                                        <h4>Product Manager</h4>
+										<div class="under mb-2"></div>
+                                        <p>Aut maiores voluptates amet et quis praesentum qui senda para</p>
+										<div class="info-link pt-4">
+											    <a><i class="icofont-twitter"></i></a>
+										        <a><i class="icofont-facebook"></i></a>
+										        <a><i class="icofont-instagram"></i></a>
+										        <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                    </div>
+                                </div>
+                            </div>
+					    </div>
+					</div>
+				    <div class="col-lg-6">
+					    <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-lg-4 pt-4 ps-4">
+                                    <img src="images/teams/team-3.jpg" class="imgs-fluid">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body-2 mb-3">
+                                        <h2>William Anderson</h2>
+                                        <h4>CTO</h4>
+										<div class="under mb-2"></div>
+                                        <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+										<div class="info-link pt-4">
+											    <a><i class="icofont-twitter"></i></a>
+										        <a><i class="icofont-facebook"></i></a>
+										        <a><i class="icofont-instagram"></i></a>
+										        <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                    </div>
+                                </div>
+                            </div>
+					    </div>
+					</div>
+				    <div class="col-lg-6">
+					    <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-lg-4 pt-4 ps-4">
+                                    <img src="images/teams/team-4.jpg" class="imgs-fluid">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body-2 mb-3">
+                                        <h2>Amanda Jepson</h2>
+                                        <h4>Accountant</h4>
+										<div class="under mb-2"></div>
+                                        <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+										<div class="info-link pt-4">
+											    <a><i class="icofont-twitter"></i></a>
+										        <a><i class="icofont-facebook"></i></a>
+										        <a><i class="icofont-instagram"></i></a>
+										        <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+			    </div>
+		    </div>
+		</section>
+	<!---------------- Team section ends-------------------------->
 	
+	<!----------------Pricing section starts-------------------------->
+		<section class="Pricing">
+		    <div class="container">
+			    <div class="pri-sec mt-4 pt-4">
+			        <h2>PRICING</h2>
+					<div class="underline"></div>
+					<p class="pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
+					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<div class="row pb-5">
+				    <div class="col-lg-4">
+				        <div class="card ps-4">
+                            <div class="card-body-3 pt-4 ps-4 shadow  mb-5 bg-body rounded">
+                                <h3 class="pt-4">Free Plan</h3>
+					            <sup>$</sup><span>0</span>
+                                <p>per month</p>
+						            <ul class="list pb-4">
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-2 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Pharetra massa massa ultricies</span-i></li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Massa ultricies mi quis hendrerit</span-i></li>
+                                    </ul>
+									<button type="buttons" class="buttons buttons-light mb-5">Get Started</button>
+                            </div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+				        <div class="card ps-4">
+                            <div class="card-body-3 pt-4 ps-4  shadow  mb-5 bg-body rounded">
+                                <h3 class="pt-4">Business Plan</h3>
+					            <sup>$</sup><span>29</span>
+                                <p>per month</p>
+						            <ul class="list pb-4">
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
+                                    </ul>
+									<button class="button button-primary  mb-5">Get Started</button>
+                            </div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+				        <div class="card ps-4">
+                            <div class="card-body-3 pt-4 ps-4  shadow  mb-5 bg-body rounded">
+                                <h3 class="pt-4">Developer Plan</h3>
+					            <sup>$</sup><span>49</span>
+                                <p>per month</p>
+						            <ul class="list pb-4">
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
+                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
+                                    </ul>
+								<button type="buttons" class="buttons buttons-light mb-5">Get Started</button>	
+                            </div>
+						</div>
+					</div>
+                </div>
+			</div>
+		</section>
+		<!----------------Pricing section ends-------------------------->
+		
+		<!----------------frequently section starts-------------------------->
+		<section class="frequently pt-4 pb-5">
+		    <div class="container">
+			    <div class="freq-sec mt-4 pt-4">
+			        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+					<div class="underline"></div>
+					<p class="pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
+					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				</div>
+				<div class="accordion accordion-flush-1" id="accordionFlushExample">
+                    <div class="accordion-item-1">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+                    </div>
+                    <div class="accordion-item-1">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Feugiat scelerisque varius morbi enim nunc?
+                            </button>
+                        </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item-1">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Dolor sit amet consectetur adipiscing elit?
+                            </button>
+                        </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-dark">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+                            </div>
+                    </div>
+					<div class="accordion-item-1">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                            </button>
+                        </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-dark">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</div>
+                            </div>
+                    </div>
+					<div class="accordion-item-1">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                            </button>
+                        </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-dark">Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.</div>
+                            </div>
+                    </div>
+			    </div>
+           </div>
+		</section>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		</body>
 
