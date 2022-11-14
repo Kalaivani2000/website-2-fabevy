@@ -168,6 +168,7 @@ a:hover {
 	  background-color:#fff;
 	  font-size:15px;
 	  color:#47b2e4;
+	  font-family:"Open Sans", sans-serif;
 }
 .btn-primary:hover {
     background-color:#47b2e4;
@@ -202,10 +203,10 @@ a:hover {
 	  
 }
 .accordion-button{
-	margin-bottom: 20px;
+	margin-bottom:20px;
 }
 .accordion-flush .accordion-item .accordion-button{
-	padding: 25px;
+	padding:25px;
 	font-size:18px;
 	font-family:"Open Sans", sans-serif;
 	font-weight:bold;
@@ -439,6 +440,7 @@ a.active-port{
 }
 
 /*--------------------Pricing section---------*/
+
 .pricing{
 	background-color:#fff;
 }
@@ -492,6 +494,7 @@ sup{
 	  border: 2px solid #47b2e4;
 	  font-size:15px;
 	  color:#47b2e4;
+	  font-family:"Open Sans", sans-serif;
 }
 a:hover {
 	color:#fff;
@@ -525,11 +528,89 @@ a:hover {
 .accordion-body{
 	color:#37517e;
 }
-.accordion-flush-1 .accordion-item-1 .accordion-button {
-    padding:10px;
-    font-size:18px;
-    font-family:"Open Sans", sans-serif;
-    font-weight:bold;
-	border-radius:20px;
+
+/*----------------contact section--------------*/
+.contact-section h2{
+	font-size:30px;
+	font-weight:bold;
 	color:#37517e;
+	text-align:center;
+	text-transform:uppercase;
+    padding-bottom:20px;
+}
+.contact-section p{
+	    font-size:15px;
+		font-family:"Open Sans", sans-serif;
+		color: #444444;
+		text-align:center;
+}
+.add i{
+	display:flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(13 110 253 / 5.05%);
+    color: #47b2e4;
+    font-size: 25px;
+}
+.add-info h3{
+	color:#37517e;
+}
+.add-info p{
+	color:#6182ba;
+}
+.con-loc{
+	border-bottom:3px solid #47b2e4;
+	border-top:3px solid #47b2e4;
+}
+.buttons-1{
+	  padding:10px 25px;
+	  border-radius:28px;
+	  background-color:#47b2e4;
+	  border: 2px solid #47b2e4;
+	  font-size:18px;
+	  font-family:"Open Sans", sans-serif;
+	  color:#fff;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+/*----------------join section-------------*/
+.join-section{
+	background-color:#f3f5fa;
+}
+.join-info h3{
+	color:#37517e;
+}
+.join-info p{
+	color:#444444;
+}
+..butns{
+	  padding:10px 40px;
+	  border:2px solid #47b2e4;
+	  font-weight:bold;
+	  border-radius:5px;
+	  background-color:#fff;
+	  font-size:15px;
+	  color:#47b2e4;
+	  font-family:"Open Sans", sans-serif;
+}
+.input-group {
+	width:50%;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback)!important {
+     margin-left: 0px;
+     border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-1{
+    display: block;
+    border-radius: 28px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
 }
