@@ -13,12 +13,15 @@
 	</head>
 	    <body>
 	<!-----------------------header section starts----------->
-	<section class="header pt-3">
+	<section class="header position-sticky pt-4">
 		<div class="container">
-		    <div class="row align-items-center g-5">
-			<nav class="navbar navbar-expand-lg">
+		    <div class="row align-items-center">
+			<nav class="navbar navbar-expand-lg ">
             <div class="col-lg-3">       
                 <a class="navbar-brand" href="#">ARSHA</a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 		    </div>
 			<div class="col-lg-9">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -43,16 +46,27 @@
                             Dropdown
                             </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down1</a></li>
+							    <li class="drop-down-1">
+                                    <a class="dropdown-item" href="#">Deep Drop Down<i class="icofont-curved-right ms-4"></i></a></li>
+									<ul class="drop-down-2">
+									    <li><a href="#">Deep Drop Down1</a></li>
+										<li><a href="#">Deep Drop Down2</a></li>
+										<li><a href="#">Deep Drop Down3</a></li>
+										<li><a href="#">Deep Drop Down4</a></li>
+										<li><a href="#">Deep Drop Down5</a></li>
+									</ul>
+								</li>
+                            <li><a class="dropdown-item" href="#">Drop Down2</a></li>
+							<li><a class="dropdown-item" href="#">Drop Down3</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down4</a></li>
                        </ul>
                        </li>
 					<li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
 			
-					<button class="button button-primary bg-transparent" type="submit">Get Started</button>
+					<button class="button" type="submit">Get Started</button>
 			</div>		
                
             </nav>
@@ -67,18 +81,18 @@
 		<section class="banner">
 		   <div class="container">
 		        <div class="row">
-				    <div class="col-lg-6 g-5 ">
+				    <div class="order-2 order-lg-1 col-lg-6">
 		                <div class="banner-content">
-			                <h1>Better Solutions For <br>Your Business</h1>
+			                <h1 class="pt-5">Better Solutions For <br>Your Business</h1>
 				                <h2 class="pb-5">We are team of talented designers making websites with Bootstrap</h2>
 					    </div>
-						<div class="nav-button">
-                            <button class="btn btn-primary" type="submit">Get Started</button>
-				            <i class="icofont-play-alt-2"><span>Watch video</span></i>
+						<div class="nav-button mt-4 mb-4">
+                            <button class="btn" type="submit">Get Started</button>
+				            <i class="icofont-play-alt-2 ms-3 pb-3"><span>Watch video</span></i>
                         </div>
 					</div>
-					<div class="col-lg-6">
-					    <img class="img-fluid" src="images/hero.jpg"> 
+					<div class="order-1 order-lg-2 col-lg-6">
+					    <img class="img-fluid-1" src="images/hero.jpg"> 
 			        </div>
 				</div>
 			</div>			
@@ -89,38 +103,38 @@
          <!---------------- client section starts------------------------>  		
 		<section class="client">
 		  <div class="container">
-			  <div class="row  gx-5 p-3">
-			    <div class="col-lg-2">
+			  <div class="row p-3">
+			    <div class="col-6 col-md-4 col-lg-2">
 				    <div class="client-logo">
 				        <img src="./images/clients/client-1.jpg" class="img-fluid">
 				    </div>
 				</div>
 				
-				<div class="col-lg-2">
+				<div class="col-6 col-md-4 col-lg-2">
 				   <div class="client-logo">
 				        <img src="./images/clients/client-2.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
-				<div class="col-lg-2">
+				<div class=" col-6 col-md-4 col-lg-2">
 				   <div class="client-logo">
 				        <img src="./images/clients/client-3.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
-				<div class="col-lg-2">
+				<div class="col-6 col-md-4 col-lg-2">
 				   <div class="client-logo">
 				        <img src="./images/clients/client-4.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
-				<div class="col-lg-2">
+				<div class="col-6 col-md-4 col-lg-2">
 				   <div class="client-logo">
 				        <img src="./images/clients/client-5.jpg" class="img-fluid">
 				   </div>
 				</div>
 				
-				<div class="col-lg-2">
+				<div class="col-6 col-md-4 col-lg-2">
 				   <div class="client-logo">
 				        <img src="./images/clients/client-6.jpg" class="img-fluid">
 				   </div>
@@ -137,7 +151,7 @@
 			    <div class="about-sec">
 			        <h2>ABOUT US</h2>
 				    <div class="underline"></div>
-					    <div class="row gx-4 mt-5">
+					    <div class="row mt-5">
 					        <div class="col-lg-6"> 
 							    <div class="about-info">
                                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
@@ -162,16 +176,16 @@
 		<!----------------------business section starts------------------>
 		<section class="bus-sec">
 		    <div class="container">
-			    <div class="row gx-4">
-			        <div class="col-lg-7">
-						<div class="bus-info mt-4 text-dark">
+			    <div class="row">
+			        <div class="order-2 order-lg-1 col-lg-6">
+						<div class="bus-info pt-5 text-dark">
 						    <h2>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></h2>
 							    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Duis aute irure dolor in <br>reprehenderit</p>
 						    <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item rounded">
-                                    <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <h2 class="accordion-header " id="flush-headingOne">
+                                        <button class="accordion-button collapsed rounded-3 text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     <span-1>01</span-1> Non consectetur a erat nam at lectus urna duis?
                                         </button>
                                     </h2>
@@ -181,7 +195,7 @@
                                 </div>
                                <div class="accordion-item rounded">
                                     <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <button class="accordion-button collapsed rounded-3 text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     <span-1>02</span-1> Feugiat scelerisque varius morbi enim nunc?
                                         </button>
                                     </h2>
@@ -191,7 +205,7 @@
                                     </div>
                                    <div class="accordion-item rounded">
                                         <h2 class="accordion-header" id="flush-headingThree">
-                                            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            <button class="accordion-button collapsed rounded-3 text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                     <span-1>03</span-1> Dolor sit amet consectetur adipiscing elit?
                                             </button>
                                         </h2>
@@ -202,7 +216,7 @@
                             </div>
 						</div>
 					</div>
-						<div class="col-lg-5">
+						<div class="order-1 order-lg-2 col-lg-6">
 						    <img class="img-fluid-2" src="images/about.jpg">
 						</div>
 				</div>
@@ -213,7 +227,7 @@
 		<!----------------------sector section starts------------------>
 		<section class="sect-sec">
 		    <div class="container"> 
-				    <div class="row gx-5 ">
+				    <div class="row ">
 					    <div class="col-lg-6">
 					        <img class="img-fluid-3" src="images/skills.jpg">
 						</div>
@@ -262,39 +276,39 @@
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 			            <div class="row pb-5">
-				            <div class="col-lg-3">
-								    <div class="card shadow-lg bg-body rounded">
-                                        <div class="card-body ms-2">
+				            <div class="col-md-6 col-xs-6 col-lg-3">
+								    <div class="card-1 shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2 mb-3">
 										    <i class="icofont-basketball"></i>
-                                            <h5 class="card-title pt-3">Lorem Ipsum</h5>
-                                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                            <h5 class="card-title fs-4 fw-bold pt-3"><a href="#" class="text-decoration-none">Lorem Ipsum</a></h5>
+                                                <p class="pt-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                         </div>
 									</div>
 						    </div>
-							<div class="col-lg-3">
-								    <div class="card shadow-lg bg-body rounded">
-                                        <div class="card-body ms-2">
+							<div class="col-md-6 col-xs-6 col-lg-3">
+								    <div class="card-1 shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2 mb-3">
 										    <i class="icofont-ui-file"></i>
-                                            <h5 class="card-title pt-3">Sed ut perspici</h5>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                            <h5 class="card-title fs-4 fw-bold pt-3"><a href="#" class="text-decoration-none">Sed ut perspici</a></h5>
+                                                <p class="pt-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                                         </div>
 									</div>
 						    </div>
-							<div class="col-lg-3">
-								    <div class="card shadow-lg bg-body rounded">
-                                        <div class="card-body ms-2">
+							<div class="col-md-6 col-sm-6 col-lg-3">
+								    <div class="card-1 shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2 mb-3">
 										    <i class="icofont-speed-meter"></i>
-                                            <h5 class="card-title pt-3">Magni Dolores</h5>
-                                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                            <h5 class="card-title fs-4 fw-bold pt-3"><a href="#" class="text-decoration-none">Magni Dolores</a></h5>
+                                                <p class="pt-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                         </div>
 									</div>
 						    </div>
-							<div class="col-lg-3">
-								    <div class="card shadow-lg bg-body rounded">
-                                        <div class="card-body ms-2">
+							<div class="col-md-6 col-xs-6 col-lg-3">
+								    <div class="card-1 shadow-lg bg-body rounded">
+                                        <div class="card-body ms-2 mb-3">
 										    <i class="icofont-layers"></i>
-                                            <h5 class="card-title pt-3">Nemo Enim</h5>
-                                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                            <h5 class="card-title fs-4 fw-bold pt-3"><a href="#" class="text-decoration-none">Nemo Enim</a></h5>
+                                                <p class="pt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                                         </div>
 									</div>
 						    <div>
@@ -308,16 +322,16 @@
 		<section class="action">
 		    <div class="container">
 			    <div class="row">
-				    <div class="col-lg-9 mb-5 mt-5">
-					    <div class="act-info pt-5">
+				    <div class="col-lg-9">
+					    <div class="act-info">
 					        <h2>Call To Action</h2>
 							    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur <br>sint occaecat cupidatat non
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
 					</div>
                     <div class="col-lg-3">
-                        <div class="act-but">
-						    <button type="button" class="butt bg-transparent">Call To Action</button>
+                        <div class="act-but pt-4">
+						    <button type="button" class="butt">Call To Action</button>
 					    </div>
 					</div>
                 </div>
@@ -337,56 +351,142 @@
 			    </div>
 				<div class="port-image">
 				    <div class="port-nav mt-4 mb-4">
-					    <a class="active-port href="#">All</a>
+					    <a href="#"class="active-port href="#">All</a>
 						<a href="#">App</a>
 						<a href="#">Card</a>
 						<a href="#">Web</a>
 					</div>
 			    </div>
-				    <div class="row">
-				        <div class="col-lg-4">
-			                <div class="portfolio-content">
-						        <img src="images/portfolio/portfolio-1.jpg" class="img-fluid">
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+							<div class="portfolio-info">
+								<div class="port-cont">
+						            <img src="images/portfolio/portfolio-1.jpg" class="img-fluid">
+							  	    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Web 3</h4>
+                                        <h5 class="fs-6 fw-bold">Web</h5>
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+							    </div>
 				            </div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-6.jpg" class="img-fluid">
+			            <div class="portfolio-info">
+						    <div class="port-cont">
+								<img src="images/portfolio/portfolio-6.jpg" class="img-fluid">
+								<div class="prt-overlay  pt-3 ps-3">
+								    <h4 class="fs-6 fw-bold">App 3</h4>
+                                    <h5 class="fs-6 fw-bold">App</h5>	
+									<div class="ico-font text-end pb-3 fs-5">	
+								        <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									    <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+									</div>
+								</div>
 							</div>
 			            </div>
-						<div class="col-lg-4">
-							<div class="portfolio-content">
-						        <img src="images/portfolio/portfolio-2.jpg" class="img-fluid">
+					</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="portfolio-info">
+							    <div class="port-cont">
+						            <img src="images/portfolio/portfolio-2.jpg" class="img-fluid">
+							  	    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Web 3</h4>
+                                        <h5 class="fs-6 fw-bold">Web</h5>
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+								</div>
 				            </div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-5.jpg" class="img-fluid">
+							<div class="portfolio-info">
+							    <div class="port-cont">
+								    <img src="images/portfolio/portfolio-5.jpg" class="img-fluid">
+                                    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Web 2</h4>
+                                        <h5 class="fs-6 fw-bold">Web</h5>
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+								</div>
 							</div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-9.jpg" class="img-fluid">
-							</div>
+							<div class="portfolio-info">
+							    <div class="port-cont">
+								    <img src="images/portfolio/portfolio-9.jpg" class="img-fluid">
+								    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Web 3</h4>
+                                        <h5 class="fs-6 fw-bold">Web</h5>	
+                                        <div class="ico-font text-end pb-3 fs-5">										
+                                            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+							    </div>
+						    </div>
 						</div>
-						<div class="col-lg-4">
-							<div class="portfolio-content">
-						        <img src="images/portfolio/portfolio-3.jpg" class="img-fluid">
-				            </div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-4.jpg" class="img-fluid">
+						<div class="d-md-none d-lg-block col-lg-4">
+						    <div class="portfolio-info">
+							    <div class="port-cont">
+						            <img src="images/portfolio/portfolio-3.jpg" class="img-fluid">
+								    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">App 2</h4>
+                                        <h5 class="fs-6 fw-bold">App</h5>	
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+				                </div>
 							</div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-7.jpg" class="img-fluid">
+							<div class="portfolio-info">
+							    <div class="port-cont">
+								    <img src="images/portfolio/portfolio-4.jpg" class="img-fluid">
+								    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Card 2</h4>
+                                        <h5 class="fs-6 fw-bold">Card</h5>
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+								</div>
 							</div>
-							<div class="portfolio-content">
-								 <img src="images/portfolio/portfolio-8.jpg" class="img-fluid">
+							<div class="portfolio-info">
+							    <div class="port-cont">
+								    <img src="images/portfolio/portfolio-7.jpg" class="img-fluid">
+								    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Card 1</h4>
+                                        <h5 class="fs-6 fw-bold">Card</h5>
+                                        <div class="ico-font text-end pb-3 fs-5">										
+                                            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+								</div>
 							</div>
-						</div>
-							
-					
-				</div>
+							<div class="portfolio-info">
+							    <div class="port-cont">
+								    <img src="images/portfolio/portfolio-8.jpg" class="img-fluid">
+								    <div class="prt-overlay pt-3 ps-3">
+								        <h4 class="fs-6 fw-bold">Card 3</h4>
+                                        <h5 class="fs-6 fw-bold">Card</h5>	
+                                        <div class="ico-font text-end pb-3 fs-5">											
+								            <a href="#" class="text-decoration-none"><i class="icofont-plus text-decoration-none text-white"></i></a>
+									        <a href="#" class="text-decoration-none"><i class="icofont-link text-decoration-none text-white"></i></a>
+										</div>
+								    </div>
+							    </div>
+						    </div>
+			    </div>
 			</div>	
-		    
 		</section>	
         <!---------------- portfolio section end-------------------------->
 		
 		<!---------------- Team section starts-------------------------->
-		<section class="team">
+		<section class="team pb-5">
 		    <div class="container">
 			    <div class="team-sec mt-5 pt-5">
 			        <h2>TEAM</h2>
@@ -395,98 +495,80 @@
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 				<div class="row">
-				    <div class="col-lg-6">
-					    <div class="card mb-3 shadow bg-body rounded">
-                            <div class="row g-0">
-				                <div class="col-lg-4 pt-4 ps-4">
-                                    <img src="images/teams/team-1.jpg" class="imgs-fluid">
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="card-body-2 mb-3">
-                                        <h2>Walter White</h2>
-                                        <h4>Chief Executive Officer</h4>
-										<div class="under mb-2"></div>
-                                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-										<div class="info-link pt-4">
-											    <a><i class="icofont-twitter"></i></a>
-										        <a><i class="icofont-facebook"></i></a>
-										        <a><i class="icofont-instagram"></i></a>
-										        <a><i class="icofont-linkedin"></i></a>
-									    </div>
-                                    </div>
-                                </div>
+				    <div class="col-md-6 col-lg-6">
+					    <div class="card-tab  shadow bg-body rounded d-flex mt-4">
+                            <div class=" photo ps-4">
+                                <img src="images/teams/team-1.jpg" class="imgs-fluid  rounded-circle">
                             </div>
+                                <div class="card-body-2 ms-4 pt-3 pb-3">
+                                    <h2 class="fs-5 fw-bolder">Walter White</h2>
+                                    <h4 class="fs-6 fw-normal">Chief Executive Officer</h4>
+										<div class="under mb-2"></div>
+                                            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+										<div class="info-link pt-4">
+										    <a><i class="icofont-twitter"></i></a>
+										    <a><i class="icofont-facebook"></i></a>
+										    <a><i class="icofont-instagram"></i></a>
+										    <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                </div>
+                        </div>
+					</div>
+					<div class="col-md-6 col-lg-6">
+					    <div class="card-tab shadow  bg-body rounded d-flex mt-4">
+                            <div class=" photo ps-4">
+                                <img src="images/teams/team-2.jpg" class="imgs-fluid  rounded-circle">
+                            </div>
+                                <div class="card-body-2 ms-4 pt-3 pb-3">
+                                    <h2 class="fs-5 fw-bolder">Sarah Jhonson</h2>
+                                    <h4 class="fs-6 fw-normal">Product Manager</h4>
+										<div class="under mb-2"></div>
+                                            <p>Aut maiores voluptates amet et quis praesentum qui senda para</p>
+										<div class="info-link pt-4">
+											<a><i class="icofont-twitter"></i></a>
+										    <a><i class="icofont-facebook"></i></a>
+										    <a><i class="icofont-instagram"></i></a>
+										    <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                </div>
+                         </div>
+					</div>
+				    <div class="col-md-6 col-lg-6">
+					    <div class="card-tab shadow bg-body rounded d-flex mt-4">
+                            <div class=" photo ps-4">
+                                <img src="images/teams/team-3.jpg" class="imgs-fluid rounded-circle">
+                            </div>
+                                <div class="card-body-2 ms-4 pt-3 pb-3">
+                                    <h2 class="fs-5 fw-bolder">William Anderson</h2>
+                                    <h4 class="fs-6 fw-normal">CTO</h4>
+										<div class="under mb-2"></div>
+                                            <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+										<div class="info-link pt-4">
+											<a><i class="icofont-twitter"></i></a>
+										    <a><i class="icofont-facebook"></i></a>
+										    <a><i class="icofont-instagram"></i></a>
+										    <a><i class="icofont-linkedin"></i></a>
+									    </div>
+                                </div>
 					    </div>
 					</div>
-					<div class="col-lg-6">
-					    <div class="card mb-3 shadow  bg-body rounded">
-                            <div class="row g-0">
-                                <div class="col-lg-4 pt-4 ps-4">
-                                    <img src="images/teams/team-2.jpg" class="imgs-fluid">
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="card-body-2 mb-3">
-                                        <h2>Sarah Jhonson</h2>
-                                        <h4>Product Manager</h4>
-										<div class="under mb-2"></div>
-                                        <p>Aut maiores voluptates amet et quis praesentum qui senda para</p>
-										<div class="info-link pt-4">
-											    <a><i class="icofont-twitter"></i></a>
-										        <a><i class="icofont-facebook"></i></a>
-										        <a><i class="icofont-instagram"></i></a>
-										        <a><i class="icofont-linkedin"></i></a>
-									    </div>
-                                    </div>
-                                </div>
+				    <div class="col-md-6 col-lg-6">
+					    <div class="card-tab shadow bg-body rounded d-flex mt-4 ">
+                            <div class=" photo ps-4">
+                                <img src="images/teams/team-4.jpg" class="imgs-fluid  rounded-circle">
                             </div>
-					    </div>
-					</div>
-				    <div class="col-lg-6">
-					    <div class="card mb-3 shadow bg-body rounded">
-                            <div class="row g-0">
-                                <div class="col-lg-4 pt-4 ps-4">
-                                    <img src="images/teams/team-3.jpg" class="imgs-fluid">
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="card-body-2 mb-3">
-                                        <h2>William Anderson</h2>
-                                        <h4>CTO</h4>
+                                <div class="card-body-2 ms-4 pt-3 pb-3">
+                                    <h2 class="fs-5 fw-bolder">Amanda Jepson</h2>
+                                    <h4 class="fs-6 fw-normal">Accountant</h4>
 										<div class="under mb-2"></div>
-                                        <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
 										<div class="info-link pt-4">
-											    <a><i class="icofont-twitter"></i></a>
-										        <a><i class="icofont-facebook"></i></a>
-										        <a><i class="icofont-instagram"></i></a>
-										        <a><i class="icofont-linkedin"></i></a>
+											<a><i class="icofont-twitter"></i></a>
+										    <a><i class="icofont-facebook"></i></a>
+										    <a><i class="icofont-instagram"></i></a>
+										    <a><i class="icofont-linkedin"></i></a>
 									    </div>
-                                    </div>
                                 </div>
-                            </div>
-					    </div>
-					</div>
-				    <div class="col-lg-6">
-					    <div class="card mb-3 shadow bg-body rounded">
-                            <div class="row g-0">
-                                <div class="col-lg-4 pt-4 ps-4">
-                                    <img src="images/teams/team-4.jpg" class="imgs-fluid">
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="card-body-2 mb-3">
-                                        <h2>Amanda Jepson</h2>
-                                        <h4>Accountant</h4>
-										<div class="under mb-2"></div>
-                                        <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-										<div class="info-link pt-4">
-											    <a><i class="icofont-twitter"></i></a>
-										        <a><i class="icofont-facebook"></i></a>
-										        <a><i class="icofont-instagram"></i></a>
-										        <a><i class="icofont-linkedin"></i></a>
-									    </div>
-                                    </div>
-                                </div>
-                            </div>
-						</div>
-					</div>
 			    </div>
 		    </div>
 		</section>
@@ -495,61 +577,61 @@
 	<!----------------Pricing section starts-------------------------->
 		<section class="Pricing">
 		    <div class="container">
-			    <div class="pri-sec mt-4 pt-4">
+			    <div class="pri-sec pt-5">
 			        <h2>PRICING</h2>
 					<div class="underline"></div>
 					<p class="pb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
-				<div class="row pb-5">
-				    <div class="col-lg-4">
-				        <div class="card ps-4">
-                            <div class="card-body-3 pt-4 ps-4 shadow  mb-5 bg-body rounded">
-                                <h3 class="pt-4">Free Plan</h3>
+				<div class="row">
+				    <div class="col-md-6 col-lg-4">
+				        <div class="card pt-4 ps-1">
+                            <div class="card-body-3 pt-4 ps-5 shadow bg-body rounded">
+                                <h3 class="pt-4 fs-5 fw-bold">Free Plan</h3>
 					            <sup>$</sup><span>0</span>
                                 <p>per month</p>
 						            <ul class="list pb-4">
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
-						                <li class="list-item pb-2 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Pharetra massa massa ultricies</span-i></li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Massa ultricies mi quis hendrerit</span-i></li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-3 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Pharetra massa massa ultricies</span-i></li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-close-line text-secondary"></i><span-i class="text-decoration-line-through">Massa ultricies mi quis hendrerit</span-i></li>
                                     </ul>
-									<button type="buttons" class="buttons buttons-light mb-5">Get Started</button>
+									<button type="buttons-1" class="buttons buttons-light mb-5">Get Started</button>
                             </div>
 						</div>
 					</div>
-					<div class="col-lg-4">
-				        <div class="card ps-4">
-                            <div class="card-body-3 pt-4 ps-4  shadow  mb-5 bg-body rounded">
-                                <h3 class="pt-4">Business Plan</h3>
+					<div class="col-md-6 col-lg-4">
+				        <div class="card pt-4 ps-1">
+                            <div class="card-body-3 card-active pt-4 ps-5 shadow bg-body rounded">
+                                <h3 class="pt-4 fs-5 fw-bold">Business Plan</h3>
 					            <sup>$</sup><span>29</span>
                                 <p>per month</p>
 						            <ul class="list pb-4">
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
-						                <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
                                     </ul>
-									<button class="button button-primary  mb-5">Get Started</button>
+									<button class="button-2 button-primary  mb-5">Get Started</button>
                             </div>
 						</div>
 					</div>
-					<div class="col-lg-4">
-				        <div class="card ps-4">
-                            <div class="card-body-3 pt-4 ps-4  shadow  mb-5 bg-body rounded">
-                                <h3 class="pt-4">Developer Plan</h3>
+					<div class="col-md-6 col-lg-4">
+				        <div class="card pt-4 ps-1">
+                            <div class="card-body-3 pt-4 ps-5  shadow  mb-5 bg-body rounded">
+                                <h3 class="pt-4 fs-5 fw-bold">Developer Plan</h3>
 					            <sup>$</sup><span>49</span>
                                 <p>per month</p>
 						            <ul class="list pb-4">
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
-						                <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
-                                        <li class="list-item pb-2 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Quam adipiscing vitae proin</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nec feugiat nisl pretium</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Nulla at volutpat diam uteera</li>
+						                <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Pharetra massa massa ultricies</li>
+                                        <li class="list-item pb-3 text-secondary"><i class="icofont-check-alt text-success"></i>Massa ultricies mi quis hendrerit</li>
                                     </ul>
-								<button type="buttons" class="buttons buttons-light mb-5">Get Started</button>	
+								<button type="buttons-1" class="buttons buttons-light mb-5">Get Started</button>	
                             </div>
 						</div>
 					</div>
@@ -568,50 +650,50 @@
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 				<div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-4">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Non consectetur a erat nam at lectus urna duis?
+                                <div class="ico"><i class="icofont-question-circle"></i></div>Non consectetur a erat nam at lectus urna duis?
                             </button>
                         </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body text-dark">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
                     </div>
 					</div>
-                    <div class="accordion-item">
+                    <div class="accordion-item  mb-4">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Feugiat scelerisque varius morbi enim nunc?
+                            <div class="ico"><i class="icofont-question-circle"></i></div>Feugiat scelerisque varius morbi enim nunc?
                             </button>
                         </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body text-dark">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item mb-4">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Dolor sit amet consectetur adipiscing elit?
+                            <div class="ico"><i class="icofont-question-circle"></i></div>Dolor sit amet consectetur adipiscing elit?
                             </button>
                         </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body text-dark">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
                             </div>
                     </div>
-					<div class="accordion-item">
+					<div class="accordion-item mb-4">
                         <h2 class="accordion-header" id="flush-headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                            <div class="ico"><i class="icofont-question-circle"></i></div>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
                             </button>
                         </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body text-dark">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</div>
                             </div>
                     </div>
-					<div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
+					<div class="accordion-item mb-4">
+                        <h2 class="accordion-header l" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            <div class="ico"><i class="icofont-question-circle text-primary"></i></div>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                            <div class="ico"><i class="icofont-question-circle"></i></div>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
                             </button>
                         </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -661,6 +743,9 @@
 						            <p class="fs-6  ps-4">+1 5589 55488 55s</p>
 							    </div>
 							</div>
+							<div class="col-lg-12">
+							    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31110.472684261716!2d80.16925083838892!3d12.919988796281102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c1c2ab10c01%3A0x8f33fe8bebe2b89c!2sMedavakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1668501127076!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
 						</div>
 					</div>
 					<div class="col-lg-7">
@@ -672,7 +757,7 @@
                                             <label for="exampleFormControlInput1" class="form-label">Your Name</label>
                                             <input type="text" class="form-control" id="exampleFormControlInput1">
 								        </div>
-								        <div class=" col-lg-6 mb-3">
+								        <div class=" col-lg-6 mb-4">
                                             <label for="exampleFormControlInput1" class="form-label">Your Email</label>
                                             <input type="email" class="form-control" id="exampleFormControlInput1">
 								        </div>
@@ -688,7 +773,7 @@
 								</div>
 							</div>
 							<div class="col-lg-12 mt-3 text-center">
-							    <button type="buttons-1" class="buttons-1 buttons-light mb-5 text-center">Send Message</button>
+							    <button type="buttons-1" class="buttons-1 buttons-light mb-4 text-center">Send Message</button>
 							</div>
 						</div>
 					</div>
@@ -705,16 +790,85 @@
 					    <div class="join-info pt-4">
 						    <h3 class="fs-4 fw-bolder text-center">Join Our Newsletter</h3>
 							<p class="fs-6 fw-normal text-center pt-2">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-						        <div class="input-group text-center mb-3">
-                                    <input type="text" class="form-control rounded-pill" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                        <button class="btn-1 btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+						        <div class="input-group mb-3">
+                                    <input type="text" class="form-control-1 mt-4  rounded-pill shadow-lg" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn-1  rounded-pill" type="button" id="button-addon2">Subscribe</button>
                                 </div>
                         </div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!--------------------join section ends----------------------->
 		
+		<!---------------- footer section start-------------------------->
+            <section class="footer mt-5 mb-5 ">
+                <div class="container">
+			            <div class="row">
+			                <div class="col-md-6 col-lg-3">
+			                    <div class="foot-content mt-4">
+								    <h3 class="fw-bolder">ARSHA</h3>
+									<div class="head pt-2 pb-4">
+									    <h4>A108 Adam Street</h4>
+                                        <h4>New York, NY 535022</h4>
+                                        <h4>United States</h4>
+									</div>
+									    <p><span class="fw-bolder">Phone:</span> +1 5589 55488 55</p>
+										<p><span class="fw-bolder">Email:</span> info@example.com</p>
+				                </div>
+			                </div>
+				            <div class="col-md-6 col-lg-2">
+			                    <div class="foot-content-2 mt-4 pt-2">
+								    <h3 class="fs-6 fw-bolder">Useful Links</h3>
+									    <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Home</p></a>
+									    <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>About us</p></a>
+						                <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Services</p></a>
+		                                <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Terms of service</p></a>
+	                                    <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Privacy policy</p></a>
+                                </div>
+			                </div>
+				            <div class="col-md-6 col-lg-3">
+			                    <div class="foot-content-2 mt-4 pt-2 ms-2">
+								    <h3 class="fs-6 fw-bolder">Our Services</h3>
+								        <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Web Design</p></a>
+									    <a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Web Development</p></a>
+										<a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Product Management</p></a>
+										<a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Marketing</p></a>
+										<a href="#" class="text-decoration-none"><p><span><i class="icofont-curved-right text-primary fs-4"></i></span>Graphic Design</p></a> 
+				                </div>
+				            </div>
+				            <div class="col-md-6 col-lg-4">
+			                    <div class="foot-content-3 mt-4 pt-2 ms-2">
+								    <h3 class="fs-6 fw-bolder pb-3">Our Social Networks</h3>
+									<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita<br>valies</p>
+								</div>
+								<div class="info-link-1 ps-4">
+							        <a href="#"><i class="icofont-twitter lh-sm ms-2 pt-2"></i></a>
+								    <a href="#"><i class="icofont-facebook lh-sm ms-2 pt-2"></i></a>
+								    <a href="#"><i class="icofont-instagram lh-sm ms-2 pt-2"></i></a>
+									<a href="#"><i class="icofont-skype lh-sm ms-2 pt-2"></i></a>
+								    <a href="#"><i class="icofont-linkedin lh-sm ms-2 pt-2"></i></a>
+							    </div>	
+				            </div>
+						</div>
+			    </div>
+			</section>
+			<section class="footer-2">
+                <div class="container">
+				    <div class="row">
+						<div class="col-lg-12 mt-5 pb-3">
+							<div class="ft-content">
+								<p>© Copyright <span-1 class="fw-bolder">Arsha. </span-1> All Rights Reserved
+							    <sub class="float-end fs-6 pt-2">Designed by <span-2><a href="#" class="text-decoration-none">BootstrapMade</a></span-2></sub></p>
+						    </div>
+						</div>
+					</div>
+					<!--<div class="arrow">
+						<a href="#"><i class="icofont-long-arrow-up"></i></a>
+				    </div>-->
+				</div>
+			</section>
+		<!---------------- footer section end-------------------------->
 		<script src="js/bootstrap.bundle.min.js"></script>
 		</body>
 
