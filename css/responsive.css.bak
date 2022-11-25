@@ -139,5 +139,5 @@
    }
    .action {
     background-position: none;
-   }
+	}
 }

@@ -3,8 +3,10 @@ body{
 }
 /*-------------header section-----*/
 .header{
-	 background-color:#131366c9;   
+	 background-color:#37517e;  
+     padding-bottom: 20px;	 
 	 top:0;
+	 z-index: 99;
 }
 .navbar {
      padding-top:0px;
@@ -30,7 +32,7 @@ body{
     padding-right: 1.5rem;
 }
 .button{
-	  padding:8px 20px;
+	  padding:10px 25px;
 	  border-radius:28px;
 	  background-color:#47b2e4;
 	  border: 2px solid #47b2e4;
@@ -63,7 +65,7 @@ a:hover {
 }
 .drop-down-2{
 	position:absolute;
-	top:45px;
+	top:35%;
 	right:100%;
     min-width:100%;
 	list-style:none;
@@ -73,7 +75,7 @@ a:hover {
 	padding: 0.25rem 1rem;
 	line-height:2.5;
 	opacity:0;
-	transform:translateY(20px);
+	transform:translateX(10px);
 	transition: all 0.5s ease;
 }
 .drop-down-2 a{
@@ -88,34 +90,28 @@ a:hover {
     color:#47b2e4;
     background-color:#fff;
 }
-.drop-down-2:hover{
+.deep:hover .drop-down-2 {
 	opacity:1;
-}
-.dropdown-menu[data-bs-popper] {
-    opacity: 0;
-	transform:translateY(20px);
-	transition: all 0.5s ease;
-}
-.dropdown-menu[data-bs-popper]:hover {
-    opacity: 1;
-	visibility:visible;
-    transform:translateY(0px);
+	visibility: visible;
+	transition: all 0.6s ease;
+	transform: translateX(-10px);
 }
 /*--------header section--------*/
 .banner{
-    background-color:#131366c9;
+    background-color:#37517e;
 }
 .banner-content h1{
 	    font-size:46px;
-		font-weight:bolder;
-	    font-family: "Open Sans", sans-serif;
+		font-weight:bold;
+		font-family: "Raleway", sans-serif;
 		color:#fff;
 }
 .banner-content h2 {
-	    font-size:19px;
+	    font-size:21px;
 		font-weight:700;
-	    font-family: "Open Sans", sans-serif;
-		color:#b3b3bc;
+		font-family: "Raleway", sans-serif;
+		line-height:1.4;
+		color: rgba(255, 255, 255, 0.6);
 }
 .btn{
 	  padding:12px 33px;
@@ -123,6 +119,7 @@ a:hover {
 	  background-color:#47b2e4;
 	  font-size:18px;
 	  font-family: "Open Sans", sans-serif;
+	  font-weight:bold;
 	  color:#fff;
 }
 .nav-button i{
@@ -135,20 +132,41 @@ a:hover {
 }
 .nav-button i span{
 	  padding:0px 10px;
-	  font-size:20px;
+	  font-size:25px;
 }
 .img-fluid-1{
-	width:100%;
+	max-width:100%;
 	height:auto;
 }
 .btn:hover {
     color:#fff;
 	background-color:#209dd8;
 }
-
-
-
-
+.nav-button i:hover{
+    color: #47b2e4;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.img-fluid-1{
+    animation-name:img-fluid-1;
+    animation-duration:7s;
+    animation-delay:0s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+	transform:translateY(0px);
+}
+@keyframes img-fluid-1{
+   0%{
+	transform:translateY(0px);
+   }
+   50%{
+	transform:translateY(30px);
+   }
+   100%{
+    transform:translateY(-30px);
+   }
+}
 /*-------------client section-----*/
 .client{
 	    background-color:#eff1f2;
@@ -172,6 +190,7 @@ a:hover {
 .about-sec{
 	    margin-top:74px;
 		margin-bottom:80px;
+		/*padding-top:80px;*/
 }
 .about-sec h2{
 	    font-size:30px;
@@ -247,9 +266,6 @@ a:hover {
        background-color: #f3f5fa;
 	   padding: 60px 0;
 }
-/*.bus-info{
-      padding:60px 20px;
-}*/
 .bus-info h2{
 	  font-size:30px;
 	  font-family:"Open Sans", sans-serif;
@@ -263,13 +279,10 @@ a:hover {
 	  color:#37517e;
 }
 .bus-info p{
-	  font-size:15px;
+	  font-size:14px;
 	  font-family:"Open Sans", sans-serif;
 	  color:#848484;
-	  
-}
-.accordion-button{
-	margin-bottom:20px;
+	  line-height:1.6;
 }
 .accordion-flush .accordion-item .accordion-button{
 	font-size:18px;
@@ -278,7 +291,8 @@ a:hover {
 	font-weight:bold;
 }
 .accordion-item {
-     border:none ;
+     border:none;
+	 margin-bottom: 20px;
 }
 .accordion-item span-1{
    font-size:18px;
@@ -287,11 +301,14 @@ a:hover {
 }
 .img-fluid-2 {
     width:100%;
-	
 }
 .img-fluid-3{
 	max-width: 100%;
     height: auto;
+}
+.accordion-body {
+    color:#44444;
+    font-size: 18px;
 }
 .accordion-flush .accordion-item button:hover{
 	color:#47b2e4 !important;
@@ -304,6 +321,7 @@ a:hover {
 }
 .accordion-button:not(.collapsed) {
     background-color:#fff;
+	box-shadow:none;
 }
 /*---------------sector section------------*/
 .sect-sec{
@@ -323,7 +341,7 @@ a:hover {
 }
 .progress{
 	border-radius:0px;
-	height:0.7rem;
+	height:0.5rem;
 }
 .progress-bar{
 	 background-color:#4668a2;
@@ -379,7 +397,7 @@ a:hover {
     color:#37517e;
 	font-family:"Open Sans", sans-serif;
 }
-.card-body h5 a:hover{
+.card-1:hover h5 a{
     color:#47b2e4;
 }
 .card-1{
@@ -409,10 +427,10 @@ a:hover {
 .act-info h2{
 	font-size: 28px;
     font-weight: 700;
-	font-family:"Open Sans", sans-serif;
 	color:#fff;
 }
 .act-info p{
+	font-size:15px;
 	font-family:"Open Sans", sans-serif;
 	color:#fff;
 }
@@ -460,7 +478,7 @@ a:hover {
 a.active-port{
 	    background-color:#47b2e4;
 		color:white;
-		border:#47b2e4;
+		border-color:#47b2e4;
 	    border-radius: 15px;
 }
 .port-nav a:hover {
@@ -489,7 +507,7 @@ a.active-port{
 .ico-font {
 	position:absolute;
 	bottom:0;
-	right:0;
+	right:10px;
     line-height: 1.8;
     word-spacing: 6px;
 }
@@ -626,6 +644,7 @@ sup{
 }
 .list-item i{
 	padding-right:5px;
+	font-size:25px;
 }
 .button-2{
 	  padding:8px 25px;
@@ -682,9 +701,6 @@ a:hover {
     padding-right: 10px;
 	color:#47b2e4;
 }
-/*.accordion-flush .accordion-item {
-    border-radius: 8px;
-}*/
 .accordion-button h2{
 	color:#37517e;
 }
@@ -716,6 +732,7 @@ a:hover {
     background-color: rgb(13 110 253 / 5.05%);
     color: #47b2e4;
     font-size: 25px;
+	line-height: 54px;
 }
 .add i:hover{
 	background: #209dd8;
@@ -806,8 +823,11 @@ a:hover {
 }
 
 /*---------------footer section----------*/
+.form-control:focus {
+    box-shadow:none;
+}
 .con-loc{
-	max-height:90%;
+	max-height:100%;
 }
 .foot-content h3{
 	    font-size:30px;
@@ -871,9 +891,6 @@ a:hover {
 }
 .ft-content{
 	color:#fff;
-}
-span-2{
-	color:#47b2e4;
 }
 a:hover {
     color: #47b2e4;
