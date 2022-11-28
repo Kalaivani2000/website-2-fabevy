@@ -150,7 +150,7 @@ a:hover {
 }
 .img-fluid-1{
     animation-name:img-fluid-1;
-    animation-duration:6s;
+    animation-duration:7s;
     animation-delay:0s;
 	animation-iteration-count:infinite;
 	animation-timing-function:ease-in-out;

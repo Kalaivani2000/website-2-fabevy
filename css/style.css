@@ -892,6 +892,9 @@ a:hover {
 .ft-content{
 	color:#fff;
 }
+a{
+	color:#0581fc;
+}
 a:hover {
     color: #47b2e4;
 }

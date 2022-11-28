@@ -497,7 +497,7 @@
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 				<div class="row">
-				    <div class="col-md-6 col-lg-6">
+				    <div class="col-md-12 col-lg-6">
 					    <div class="card-tab  shadow bg-body rounded d-flex mt-4">
                             <div class=" photo ps-4">
                                 <img src="images/teams/team-1.jpg" class="imgs-fluid  rounded-circle">
@@ -516,7 +516,7 @@
                                 </div>
                         </div>
 					</div>
-					<div class="col-md-6 col-lg-6">
+					<div class="col-md-12 col-lg-6">
 					    <div class="card-tab shadow  bg-body rounded d-flex mt-4">
                             <div class=" photo ps-4">
                                 <img src="images/teams/team-2.jpg" class="imgs-fluid  rounded-circle">
@@ -535,7 +535,7 @@
                                 </div>
                          </div>
 					</div>
-				    <div class="col-md-6 col-lg-6">
+				    <div class="col-md-12 col-lg-6">
 					    <div class="card-tab shadow bg-body rounded d-flex mt-4">
                             <div class=" photo ps-4">
                                 <img src="images/teams/team-3.jpg" class="imgs-fluid rounded-circle">
@@ -586,7 +586,7 @@
 					nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 				<div class="row">
-				    <div class="col-md-12 col-lg-4 ">
+				    <div class="col-md-6 col-lg-4 ">
 				        <div class="card pt-4 ps-1">
                             <div class="card-body-3 pt-4 ps-5 shadow bg-body rounded">
                                 <h3 class="pt-4 fs-5 fw-bold">Free Plan</h3>
@@ -603,7 +603,7 @@
                             </div>
 						</div>
 					</div>
-					<div class="col-md-12 col-lg-4">
+					<div class="col-md-6 col-lg-4">
 				        <div class="card pt-4 ps-1">
                             <div class="card-body-3 card-active pt-4 ps-5 shadow bg-body rounded">
                                 <h3 class="pt-4 fs-5 fw-bold">Business Plan</h3>
@@ -620,7 +620,7 @@
                             </div>
 						</div>
 					</div>
-					<div class="col-md-12 col-lg-4">
+					<div class="col-md-6 col-lg-4">
 				        <div class="card pt-4 ps-1">
                             <div class="card-body-3 pt-4 ps-5  shadow  mb-5 bg-body rounded">
                                 <h3 class="pt-4 fs-5 fw-bold">Developer Plan</h3>
