@@ -37,6 +37,9 @@
    .float-end {
     float: left!important;
    }
+   .ft-content {
+    font-size: 15px;
+   }
 }
 
 /*-----------------tab responsive----------------*/

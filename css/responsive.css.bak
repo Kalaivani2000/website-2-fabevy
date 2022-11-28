@@ -78,6 +78,9 @@
    .client-logo {
     font-size: 72px;
    }
+   .ft-content {
+    font-size: 15px;
+   }
 }
 
 /*-----------------laptop responsive----------------*/
@@ -139,5 +142,5 @@
    }
    .action {
     background-position: none;
-	}
+   }
 }
